@@ -27,6 +27,10 @@ I identified three customer segments: Consumer, Corporate, and Home Office. I an
 Most orders come from the Consumer segment, which accounts for approximately 52% of total orders. The Corporate segment contributes around 30% of orders, while the Home Office segment accounts for about 18%. 
 This shows that the majority of orders come from individual consumers purchasing for personal use.
 
+### Customer Segment Distribution
+![Customer Segment Pie Chart](Customer_Segment_Pie_Chart.png)
+
+
 When analyzing sales by segment, the same pattern appears. The Consumer segment contributes about 54% of total sales, Corporate contributes roughly 33%, and Home Office contributes around 20%. While the Consumer
 segment places the highest number of orders, the Home Office segment places fewer but often larger orders.
 
@@ -84,6 +88,29 @@ office supplies should be promoted more aggressively.
 Office Supplies like Labels, Paper, and Envelopes generate profit margins above 40%, making them highly profitable. While Technology phones and Furniture chairs drive revenue, smaller office supplies contribute
 disproportionately to profit. Bundling high-demand items with high-margin products could improve overall profitability.
 
+## Geographic (State and Regional) Analysis
+
+I analyzed performance across states using a bubble chart where the x-axis represents number of orders, the y-axis represents sales, and bubble size indicates profit. California and New York stand out with
+high order volume and high revenue. California’s bubble is the largest, indicating it generates the highest total profit.
+
+I then compared the top 10 states by sales and profit using bar charts. While California and New York dominate sales, states such as Michigan, Virginia, and Washington appear among the top profit contributors
+despite lower sales.California and New York have high sales but relatively lower profit margins (around 17%), likely due to higher operating costs or intense competition. These regions require efficiency 
+improvements or premium pricing strategies. 
+
+### Sales vs Profit by State
+![Profit vs Sales Bar Chart](Profit_Sales_Bar_Chart.png)
+
+States like Michigan, Virginia, and Washington have high profit margins (Michigan ~32%), indicating efficient operations. These states represent strong expansion opportunities.Regionally, the West performs 
+best with approximately $725k in sales and $108k in profit, followed by the East. Central and South regions underperform, suggesting untapped growth potential.
+
+
+## Shipping & Discount Insights
+
+Most orders (around 60%) use Standard Class shipping, followed by Second Class (20%), First Class (15%), and Same Day (5%). This indicates customers are generally price-sensitive and willing to wait longer for
+delivery, allowing the business to control shipping costs.Discount analysis shows similar discount levels across all segments, suggesting a uniform pricing policy. Segment-specific or product-specific discounts
+could be explored to drive targeted growth.
+
+
 ## Sales Trends Over Time
 
 ### Yearly Growth
@@ -100,26 +127,8 @@ Quarterly analysis reveals a clear seasonal pattern. Sales peak every fourth qua
 Monthly analysis confirms end-of-year sales spikes and shows a steadily rising baseline over time. Early 2018 monthly sales are higher than the same months in previous years, indicating sustained momentum.
 Overall, time-based analysis confirms consistent growth and strong seasonality, with predictable demand peaks during the holiday period.
 
-
-## Geographic (State and Regional) Analysis
-
-I analyzed performance across states using a bubble chart where the x-axis represents number of orders, the y-axis represents sales, and bubble size indicates profit. California and New York stand out with
-high order volume and high revenue. California’s bubble is the largest, indicating it generates the highest total profit.
-
-I then compared the top 10 states by sales and profit using bar charts. While California and New York dominate sales, states such as Michigan, Virginia, and Washington appear among the top profit contributors
-despite lower sales.California and New York have high sales but relatively lower profit margins (around 17%), likely due to higher operating costs or intense competition. These regions require efficiency 
-improvements or premium pricing strategies.
-
-States like Michigan, Virginia, and Washington have high profit margins (Michigan ~32%), indicating efficient operations. These states represent strong expansion opportunities.Regionally, the West performs 
-best with approximately $725k in sales and $108k in profit, followed by the East. Central and South regions underperform, suggesting untapped growth potential.
-
-
-## Shipping & Discount Insights
-
-Most orders (around 60%) use Standard Class shipping, followed by Second Class (20%), First Class (15%), and Same Day (5%). This indicates customers are generally price-sensitive and willing to wait longer for
-delivery, allowing the business to control shipping costs.Discount analysis shows similar discount levels across all segments, suggesting a uniform pricing policy. Segment-specific or product-specific discounts
-could be explored to drive targeted growth.
-
+### Sales Trend Over Time
+![Sales Trend Over Time](Trend_over_Time.png)
 ---
 
 ## Key Takeaways
@@ -129,5 +138,8 @@ could be explored to drive targeted growth.
 - Office Supplies are the most profitable category.
 - Furniture needs pricing or cost optimization.
 - Expansion opportunities exist in high-margin and under-penetrated regions.
+
+### Sales Heatmap by Region/State
+![Sales Heatmap](Sales_Heatmap.png)
   
 This analysis combines data validation, visualization, and business interpretation to translate raw sales data into actionable insights that support strategic decision-making.
