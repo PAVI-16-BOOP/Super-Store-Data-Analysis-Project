@@ -93,6 +93,10 @@ disproportionately to profit. Bundling high-demand items with high-margin produc
 I analyzed performance across states using a bubble chart where the x-axis represents number of orders, the y-axis represents sales, and bubble size indicates profit. California and New York stand out with
 high order volume and high revenue. California’s bubble is the largest, indicating it generates the highest total profit.
 
+### Orders vs Sales (Bubble Chart)
+![Orders vs Sales Bubble Chart](Bubble_Chart.png)
+
+
 I then compared the top 10 states by sales and profit using bar charts. While California and New York dominate sales, states such as Michigan, Virginia, and Washington appear among the top profit contributors
 despite lower sales.California and New York have high sales but relatively lower profit margins (around 17%), likely due to higher operating costs or intense competition. These regions require efficiency 
 improvements or premium pricing strategies. 
