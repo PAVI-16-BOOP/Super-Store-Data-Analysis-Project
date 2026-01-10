@@ -90,7 +90,7 @@ disproportionately to profit. Bundling high-demand items with high-margin produc
 
 ## Geographic (State and Regional) Analysis
 
-I analyzed performance across states using a bubble chart where the x-axis represents number of orders, the y-axis represents sales, *and bubble size indicates profit*. California and New York stand out with
+I analyzed performance across states using a bubble chart where the x-axis represents number of orders, the y-axis represents sales, **and bubble size indicates profit**. California and New York stand out with
 high order volume and high revenue. California’s bubble is the largest, indicating it generates the highest total profit.
 
 ### Orders vs Sales (Bubble Chart)
