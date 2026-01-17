@@ -34,12 +34,13 @@ This shows that the majority of orders come from individual consumers purchasing
 When analyzing sales by segment, the same pattern appears. The Consumer segment contributes about 54% of total sales, Corporate contributes roughly 33%, and Home Office contributes around 20%. While the Consumer
 segment places the highest number of orders, the Home Office segment places fewer but often larger orders.
 
-### Average Order Value
+### Median Order Value
 
-I examined how much customers spend per order.
+I examined how much customers spend per order on median : 
 
-* Corporate orders are generally larger than Consumer orders.
-* Home Office orders are also larger on average.
+* Corporate orders are generally larger than Consumer orders($56.54).
+* Then comes the Consumer segment($53.72).
+* Home Office orders are smallest on median ($52.44).
 
 This indicates that Corporate and Home Office customers tend to spend more per order compared to individual consumers. Because of this, it would be beneficial to prioritize Corporate and Home Office customers,
 as their orders are more valuable.
@@ -50,19 +51,18 @@ I calculated profit margin for each segment by dividing total profit by total sa
 approximately 11.6%.
 
 This means that even though the Home Office segment generates lower sales volume, it delivers higher profitability per sale. Improving service or increasing sales in this segment could result in faster profit 
-growth.I also analyzed revenue per unique customer. Corporate customers generate around $3,000 per customer on average, which is higher than Consumer customers (~$2,840) and Home Office customers (~$2,900). 
-This shows that Corporate customers are extremely valuable, and acquiring new Corporate customers has a high business impact.
+growth.
 
 In terms of quantity sold, the Consumer segment leads with 19,521 items sold, followed by Corporate with 11,608 items and Home Office with 6,744 items. Since the Consumer segment drives high order volume and 
 item quantity, inventory management for popular Consumer products is critical.
 
 ### Discounts
 
-I analyzed discount patterns across segments. Average discounts are similar for Consumer and Corporate segments (around 15–16%), while Home Office receives slightly lower discounts (~14.7%).
-This suggests that discounts are applied uniformly across segments. If growth is desired in a specific segment, targeted discount strategies could be more effective than broad discounting.
+I analyzed discount behavior across customer segments using median discount values to avoid distortion from extreme promotional orders.
 
-Overall, Consumer customers drive volume and revenue, so retaining them is essential. However, Home Office and Corporate segments provide higher value per sale, making them important targets for 
-profitability-focused strategies.
+The Consumer and Corporate segments both receive a median discount of approximately 20%, indicating a largely uniform discounting strategy across these two segments. In contrast, the Home Office segment shows a median discount of 0%, suggesting that most orders in this segment are placed without any discount.
+
+This pattern implies that discount-driven promotions are primarily focused on Consumer and Corporate customers, while Home Office buyers tend to purchase at full price. If growth in the Home Office segment is a business objective, introducing targeted discount campaigns or personalized offers could help stimulate demand.Overall, Consumer customers continue to drive order volume and revenue. However, Corporate and Home Office segments demonstrate higher value per transaction, making them important targets for profitability-focused and long-term retention strategies.
 
 
 ## Product Category & Sub-Category Analysis
